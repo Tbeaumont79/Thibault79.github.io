@@ -65,12 +65,18 @@ a
     text-decoration: none;
     color: #444;
 }
+header nav ul 
+{
+    display: flex;
 
+}
+
+header nav ul li{
+    margin-top: 42px;
+}
 header
 {
-    height: 120px;
-    
-    
+    height: 120px;  
 }
 header h1
 {
@@ -79,15 +85,11 @@ header h1
 }
 header nav
 {
-    float: right;
-    margin-top: 50px;
+    
+ margin-top: 50px;
 
 }
-header nav ul li
-{
-    display: flex;
-    float: left;
-}
+
 header nav ul li a
 {
     text-transform: uppercase;
