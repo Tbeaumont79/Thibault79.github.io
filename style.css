@@ -62,7 +62,7 @@ h2
 }
 header nav
 {   
-   display: inline-flex;
+   display: flex;
    justify-content: flex-end;
    position: absolute;
    top:35px;
