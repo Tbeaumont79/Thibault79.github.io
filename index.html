@@ -2,10 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="fonts/font.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="fonts/fontawesome-webfont.ttf">
-        <link rel="stylesheet" href="fonts/Roboto-Thinlatic.ttf">
+        
         <title>webagency</title>
     </head>
     <body>
@@ -27,13 +26,14 @@
         </div>
         <div id="corp">
         <section id="slider">
-                <div id = "left-arrow">
+                <!-- <div id = "left-arrow">
                 <div id="left-circle"><i class="angle-left" aria-hidden="true"></i></div>
                 </div>
                 <div id = "right-arrow">
                 <div id="left-circle"><i class="angle-right" aria-hidden="true"></i></div>
                 </div>
-                <div class="text-slider">
+            -->
+                <div id="text-slider">
                 <h1><strong>Webagency</strong>:l'agence de tous<br>vos projets !</h1>
                 <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>  
                 <div id = "button">
@@ -41,37 +41,82 @@
                 </div> 
                 </div>
              </section>
-             <section id = "nos-services">
-                 <h2>Nos services</h2>
+             <section>
+                    <div id = "sec-corp">
+                 <h2 id ="service">Nos services</h2>
              <div class="line"></div>
-             <div class="rond"><p></p></div>
-                 <p>Afin de vous satisfaire la WebAgency vous propose un large choix de services et<br> vous garantie un accompagnement personalisé pour réaliser tous vous projets.</p>
-            <div class="imac">
-                <img src="images/main-feature.png" alt="photo imac">
-            </div>
-            <div class="logo-3">
-            <span class="fa-stack fa-2x">
+             <div class="rond"></div>
+                 <p id="nos-services">Afin de vous satisfaire la WebAgency vous propose un large choix de services et<br> vous garantie un accompagnement personalisé pour réaliser tous vous projets.</p>
+         
+            <div id="imac">
+            
+            
+            <div id="logo-3">
+                <div class="icon" id = "ic1">
+                <span class="fa-stack fa-2x">
                 <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true" ></i>
                 <i class="fa fa-line-chart fa-stack-1x" aria-hidden="true"></i>
                 <i class="fa fa-circle" aria-hidden="true"></i>
             </span>
-            <span class="fa-stack fa-2x"> <!-- logo charte et cercle -->
+        </div>
+        <div id ="txt-ic1">
+                <h3>UX design</h3>
+                <p>L'UX (expérience utilisateur) consiste à penser et concevoir un site web de la meilleure manière possible pour que l’utilisation soit optimale.</p>
+        </div>
+
+
+            <div class="icon" id="ic2">
+            <span class="fa-stack fa-2x">
                 <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
                 <i class="fa fa-cubes fa-stack-1x" aria-hidden="true"></i>
                 <i class="fa fa-circle" aria-hidden="true" ></i>
             </span>
+        </div>
+                 <div id="txt-ic2"> 
+                <h3>UI design</h3>
+                <p>L'UI (interface utilisateur) permet de rendre l’expérience de navigation la plus intuitive possible via un design fonctionnel</p>
+                </div>
+ 
+
+            <div class="icon" id = "ic3">
                     <span class="fa-stack fa-2x"> 
                         <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
                         <i class="fa fa-pie-chart fa-stack-1x" aria-hidden="true"></i>
                         <i class="fa fa-circle" aria-hidden="true"></i>
                     </span>
+                </div>
+                <div id="txt-ic3">
+                        <h3>SEO</h3>
+                        <p>Grâce au SEO (Search Engine Optimization) vous bénéficierez d'une meilleure visibilité dans les pages de résultats de recherche.</p>
+                </div>
+                </div>
+            </div>
+        
                     
             </div>
+             </section>
+             <section id="section2">
+
+                 <h2>Nos projets</h2>
+                 <div class="line"></div>
+                 <div class="rond1"></div>
+                 <p>Vous trouverez ici tous les projets que nous avons réalisé pour nos clients, n'hésitez plus et faites nous confiance !</p>
+                 <div id="menu2">
+                     <ul>
+                         <li><a href="#">All works</a></li>
+                         <li><a href="#">Creative</a></li>
+                         <li><a href="#">Coporate</a></li>
+                         <li><a href="#">Portfolio</a></li>
+                     </ul>
+                 </div>
              </section>
         </div>
 
         <footer>
-
+            <iframe src="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap
+            &markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+            &markers=color:red%7Clabel:C%7C40.718217,-73.998284
+            &key" frameborder="0"></iframe>
         </footer>
 
 
