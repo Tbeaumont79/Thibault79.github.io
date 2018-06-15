@@ -382,7 +382,7 @@ li
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 0.2; }
     to   { opacity: 1; }
 }
 #menu2 li:hover
@@ -393,9 +393,16 @@ li
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
-    
-    
-
+}
+#menu2 li:first-child
+{  
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#menu2 li:last-child
+{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #menu2 a:hover .triangle1,#menu2 a:hover .triangle2,#menu2 a:hover .triangle3,#menu2 a:hover .triangle4 
@@ -416,12 +423,327 @@ li
     align-content: center;
     flex-wrap: wrap;
 }
+.img-size p
+{
+    color: white;
+    opacity: 0;
+}
+.img-size h4
+{
+    font-size: 20px;
+    z-index: 2;
+    color: white;
+}
+.img-size #item-1
+{
+    position: absolute;
+    top: 1615px;
+    left:210px;
+    visibility: hidden;
+}
+.img-size p#p-1
+{
+    position: absolute;
+    top: 1665px;
+    left: 210px;
+}
+
+
+.img-size #item-2
+{
+    position: absolute;
+    top: 1615px;
+    left:610px;
+    visibility: hidden;
+}
+.img-size p#p-2
+{
+    position: absolute;
+    top: 1665px;
+    left: 610px;
+}
+.img-size #item-3
+{
+    position: absolute;
+    top: 1615px;
+    left:1010px;
+    visibility: hidden;
+}
+.img-size p#p-3
+{
+    position: absolute;
+    top: 1665px;
+    left: 1010px;
+}
+.img-size #item-4
+{
+    position: absolute;
+    top: 1615px;
+    left:1410px;
+    visibility: hidden;
+}
+.img-size p#p-4
+{
+    position: absolute;
+    top: 1665px;
+    left: 1410px;
+}
+.img-size #item-5
+{
+    position: absolute;
+    top: 1880px;
+    left:210px;
+    visibility: hidden;
+}
+.img-size p#p-5
+{
+    position: absolute;
+    top: 1925px;
+    left: 210px;
+}
+.img-size #item-6
+{
+    position: absolute;
+    top: 1880px;
+    left:610px;
+    visibility: hidden;
+}
+.img-size p#p-6
+{
+    position: absolute;
+    top: 1925px;
+    left: 610px;
+}
+.img-size #item-7
+{
+    position: absolute;
+    top: 1880px;
+    left:1010px;
+    visibility: hidden;
+}
+.img-size p#p-7
+{
+    position: absolute;
+    top: 1925px;
+    left: 1010px;
+}
+.img-size #item-8
+{
+    position: absolute;
+    top: 1880px;
+    left:1410px;
+    visibility: hidden;
+}
+.img-size p#p-8
+{
+    position: absolute;
+    top: 1925px;
+    left: 1410px;
+}
+#img1
+{
+    z-index: 2;
+    position: absolute;
+    top:1635px;
+    left: 204px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+#img2
+{
+    z-index: 2;
+    position: absolute;
+    top:1635px;
+    left: 602px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+#img3
+{
+    z-index: 2;
+    position: absolute;
+    top:1635px;
+    left: 1002px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+
+#img4
+{
+    z-index: 2;
+    position: absolute;
+    top:1635px;
+    left: 1404px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+#img5
+{
+    z-index: 2;
+    position: absolute;
+    top:1901px;
+    left: 204px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+#img6
+{
+    z-index: 2;
+    position: absolute;
+    top:1901px;
+    left: 602px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+#img7
+{
+    z-index: 2;
+    position: absolute;
+    top:1901px;
+    left: 1004px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+}
+#img8
+{
+    z-index: 2;
+    position: absolute;
+    top:1903px;
+    left: 1404px;
+    height: 85px;
+    width: 348px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.4;
+    visibility: hidden;
+
+}
+
 #portfolio img
 {
     width: 350px;
     height: 233px;
     padding-left: 50px;
     padding-top: 30px;
+}
+i.fa-eye
+{
+    padding: 13px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: #5383b4;
+}
+#oeil1
+{
+    z-index: 3;
+    position: absolute;
+    top: 1610px;
+    left:500px;
+    visibility: hidden;
+}
+#oeil2
+{
+    z-index: 3;
+    position: absolute;
+    top: 1610px;
+    left:900px;
+    visibility: hidden;
+}
+#oeil3
+{
+    z-index: 3;
+    position: absolute;
+    top: 1610px;
+    left:1300px;
+    visibility: hidden;
+}
+#oeil4
+{
+    z-index: 3;
+    position: absolute;
+    top: 1610px;
+    left:1700px;
+    visibility: hidden;
+}
+#oeil5
+{
+    z-index: 3;
+    position: absolute;
+    top: 1877px;
+    left:500px;
+    visibility: hidden;
+}
+#oeil6
+{
+    z-index: 3;
+    position: absolute;
+    top: 1877px;
+    left:900px;
+    visibility: hidden;
+}
+#oeil7
+{
+    z-index: 3;
+    position: absolute;
+    top: 1877px;
+    left:1300px;
+    visibility: hidden;
+}
+#oeil8
+{
+    z-index: 3;
+    position: absolute;
+    top: 1877px;
+    left:1700px;
+    visibility: hidden;
+}
+.img-size:hover p
+{
+    z-index: 2;
+    opacity: 1;
+}
+.img-size:hover #item-1,.img-size:hover #item-2,.img-size:hover #item-3,.img-size:hover #item-4,.img-size:hover #item-5,.img-size:hover #item-6,.img-size:hover #item-7,.img-size:hover #item-8
+{
+    visibility: visible;
+}
+#portfolio .img-size:hover #img1,#portfolio .img-size:hover #img2,#portfolio .img-size:hover #img3,#portfolio .img-size:hover #img4,#portfolio .img-size:hover #img5,#portfolio .img-size:hover #img6,#portfolio .img-size:hover #img7,#portfolio .img-size:hover #img8
+{
+    z-index: 2;
+    visibility: visible;
+}
+#portfolio .img-size:hover #oeil1,#portfolio .img-size:hover #oeil2,#portfolio .img-size:hover #oeil3,#portfolio .img-size:hover #oeil4,#portfolio .img-size:hover #oeil5,#portfolio .img-size:hover #oeil6,#portfolio .img-size:hover #oeil7,#portfolio .img-size:hover #oeil8
+{
+    visibility: visible;
+    z-index: 3;
 }
 iframe
 {
