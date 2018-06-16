@@ -80,9 +80,8 @@ header a
     color: rgb(121, 117, 117);
     margin: 15px;
     font-size: 16px;    
-
-
 }
+
 header ul
 {
     margin: 0;
@@ -179,7 +178,7 @@ header ul
     background-color: #02b8dd;
     position: absolute;
     left: 940px;
-    top: 2070px;
+    top: 2075px;
     width: 10px;
     height: 10px;
     border-radius: 100%;  
@@ -355,7 +354,13 @@ li
    
 
 }
-
+@media screen and (max-width:500px)
+{
+    body{width: 100%;margin: 0;padding: 0;}
+    .imac{margin-left: 0px;}
+    #corp{width: 500px;}
+    #sec-corp{width: 500px;}
+}
 
 @keyframes fadein {
     from { opacity: 0.2; }
@@ -749,4 +754,55 @@ iframe
 {
     width: 100%;
     padding-top: 30px;
+}
+#formulaire-contact
+{
+    display: block;
+    padding-left: 20px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: absolute;
+    height: 445px;
+    width: 300px;
+    left: 1300px;
+    top: 2200Px;
+}
+#formulaire-contact p
+{
+    padding-top: 45px;
+    font-size: 14px;
+}
+
+#formulaire-contact h5
+{
+    position: absolute;
+    font-size: 20px;
+}
+
+#subject, #name,#mail
+{
+    height: 30px;
+    margin-top: 5px;
+    width: 225px;
+}
+#message
+{
+ margin-top: 5px;
+}
+#button-message
+{
+
+    padding-top: 10px;
+}
+#button-message a
+{
+    border: 1px solid transparent;
+    width: 120px;
+    text-align: center;
+    padding: 7px;
+    color: #fff;
+    background:linear-gradient(to top, #5383b4 0%,#02b8dd 8%);
 }
