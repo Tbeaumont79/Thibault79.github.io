@@ -1,4 +1,3 @@
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -16,10 +15,22 @@ header
     opacity: 0.9;
     z-index: 1;
 }
+header li:hover
+{
+    height: 70px;
+    border-top: 4px solid #02b8dd;
+    padding-top: 28px;
+   
+}
+header a:hover
+{
+    cursor: pointer;
+}
 .logo
 {
     margin-left: 10%;
     padding-top: 10px;
+    width: 500px;
     display: flex;
     justify-content: flex-start;
 }
@@ -28,7 +39,7 @@ header
 {
     #corp
     {
-        width: auto;
+        width: 1080px;
     }
 }
 #corp
@@ -60,8 +71,8 @@ header nav
 {   
    display: flex;
    justify-content: flex-end;
-   position: absolute;
-   top:35px;
+   position: relative;
+   bottom:35px;
    right: 15%;;
    width: 100%;
    
@@ -116,9 +127,7 @@ header ul
 }
 #text-slider p
 {
-
     color: white;
-
 }
 #button
 {
@@ -146,7 +155,6 @@ header ul
     width: auto;
     margin-left: 800px;
     margin-right: 800px;
-
 }
 .rond 
 {
@@ -158,7 +166,6 @@ header ul
     width: 10px;
     height: 10px;
     border-radius: 100%;
- 
 }
 .rond1
 {
@@ -169,8 +176,7 @@ header ul
     top: 1312px;
     width: 10px;
     height: 10px;
-    border-radius: 100%;
-    
+    border-radius: 100%;  
 }
 .rond2
 {
@@ -183,7 +189,6 @@ header ul
     height: 10px;
     border-radius: 100%;  
 }
-
 #imac
 {
    
@@ -192,9 +197,6 @@ header ul
     margin-left: 320px;
     vertical-align: middle;
 }
-
-
-
   i.fa.fa-line-chart,i.fa.fa-cubes, i.fa.fa-pie-chart
   {      
       color: rgb(78, 177, 213);
@@ -202,18 +204,18 @@ header ul
   
   .fa.fa-circle-thin
   {
-  border: 1px solid rgb(119, 119, 119);
-  border-radius: 50%;
-  color: white;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 50%;
+    color: white;
   }
   
   .fa-stack.fa-2x .fa.fa-circle
   {
-  font-size: 15px;
-  position: absolute;
-  color: #02b8dd;
-  left: 58px;
-  top: 25px;
+    font-size: 15px;
+    position: absolute;
+    color: #02b8dd;
+    left: 58px;
+    top: 25px;
   }
 .icon
 {
@@ -221,7 +223,6 @@ header ul
     flex-direction: column;
     align-content: center;
     margin-left: 550px;
-
 }
 #ic1
 {
@@ -263,7 +264,7 @@ header ul
 #sec-corp
 {
     display: block;
-   height: 600px;
+    height: 600px;
 }
 #section2
 {
@@ -282,13 +283,10 @@ li
 
 #menu2 a 
 {
-    color: black;
-    
+    color: black;    
     display: flex;
     flex-direction: row;
     margin: 6px;
-
-
 }
 .triangle1
 {
@@ -332,15 +330,13 @@ li
 }
 #menu2  
 {
-   margin-right: 50px;
+    margin-right: 50px;
     display: flex;
     flex-direction: row;
     color: black;
     align-content: center;
     justify-content: center;
     height: 85px;
-
- 
 }
 #menu2 ul
 {
@@ -351,8 +347,6 @@ li
     padding: 10px;
     border: 1px solid #e5e5e5;
     background-color: #e5e5e5;
-   
-
 }
 @media screen and (max-width:500px)
 {
@@ -428,6 +422,7 @@ li
     align-content: center;
     flex-wrap: wrap;
 }
+
 .img-size p
 {
     color: white;
@@ -545,6 +540,9 @@ li
     top: 1925px;
     left: 1410px;
 }
+/*
+    bordure au fond noir 
+*/
 #img1
 {
     z-index: 2;
@@ -772,29 +770,41 @@ iframe
 }
 #formulaire-contact p
 {
-    padding-top: 45px;
     font-size: 14px;
 }
-
+footer p
+{
+    margin: 0%;
+    padding: 0%;
+}
 #formulaire-contact h5
 {
-    position: absolute;
     font-size: 20px;
 }
 
 #subject, #name,#mail
 {
-    height: 30px;
+    height: 25px;
     margin-top: 5px;
     width: 225px;
 }
 #message
 {
- margin-top: 5px;
+    margin-top: 5px;
+}
+#info-contact
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+}
+#info-contact p:first-of-type
+{
+    font-weight: bold;
 }
 #button-message
 {
-
     padding-top: 10px;
 }
 #button-message a
