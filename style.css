@@ -151,10 +151,10 @@ header ul
 .line
 {
     border-top: 1px solid gray;
-    opacity: 0.2;
     width: auto;
     margin-left: 800px;
     margin-right: 800px;
+    justify-content: center;
     display: flex;
 }
 .rond 
