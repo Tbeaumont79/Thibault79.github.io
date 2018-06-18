@@ -160,11 +160,10 @@ header ul
     margin-right: 800px;
     justify-content: center;
     display: flex;
-    opacity: 0.4;
+    align-content: center;
 }
 .rond 
 {
-    opacity: 1;
     border: 1px solid #02b8dd;
     background-color: #02b8dd;
     width: 10px;
@@ -343,7 +342,7 @@ li
 }
 #menu2 li:hover
 {
-    background:linear-gradient(to top, #5383b4 0%,#02b8dd 8%);
+    background:linear-gradient(to top, #5383b4 0%,#02b8dd 12%);
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
