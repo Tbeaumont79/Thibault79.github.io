@@ -167,6 +167,7 @@ header ul
     border: 1px solid #02b8dd;
     background-color: #02b8dd;
     width: 10px;
+    text-align: center;
     height: 10px;
     border-radius: 100%;
 }
@@ -273,7 +274,7 @@ li
 }
 .triangle1
 {
-    margin-left: 20px;
+    
     visibility: hidden;
     position: absolute;
     margin: 14px;
