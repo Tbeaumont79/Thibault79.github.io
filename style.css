@@ -276,7 +276,7 @@ li
     margin-left: 20px;
     visibility: hidden;
     position: absolute;
-    margin: 14px;
+    padding: 14px;
     width:0px;
     border:10px solid transparent;
     border-top:10px solid #5383b4;
