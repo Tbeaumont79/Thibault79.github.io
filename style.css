@@ -160,35 +160,13 @@ header ul
 {
     border: 1px solid #02b8dd;
     background-color: #02b8dd;
-    position: absolute;
-    left: 940px;
-    top: 685px;
+    display: flex;
+    align-items: center;
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
-.rond1
-{
-    border: 1px solid #02b8dd;
-    background-color: #02b8dd;
-    position: absolute;
-    left: 940px;
-    top: 1312px;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;  
-}
-.rond2
-{
-    border: 1px solid #02b8dd;
-    background-color: #02b8dd;
-    position: absolute;
-    left: 940px;
-    top: 2075px;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;  
-}
+
 #imac
 {
    
@@ -286,6 +264,7 @@ li
     color: black;    
     display: flex;
     flex-direction: row;
+    position: relative;
     margin: 6px;
 }
 .triangle1
