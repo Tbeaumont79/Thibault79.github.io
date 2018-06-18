@@ -155,9 +155,11 @@ header ul
     width: auto;
     margin-left: 800px;
     margin-right: 800px;
+    display: flex;
 }
 .rond 
 {
+    z-index: 3;
     border: 1px solid #02b8dd;
     background-color: #02b8dd;
     display: flex;
