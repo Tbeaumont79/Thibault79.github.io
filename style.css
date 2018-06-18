@@ -160,10 +160,11 @@ header ul
     margin-right: 800px;
     justify-content: center;
     display: flex;
+    opacity: 0.4;
 }
 .rond 
 {
-    z-index: 3;
+    opacity: 1;
     border: 1px solid #02b8dd;
     background-color: #02b8dd;
     width: 10px;
