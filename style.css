@@ -703,6 +703,7 @@ i.fa-eye
 }
 iframe
 {
+    z-index: 3;
     width: 100%;
     padding-top: 30px;
     border: 1px solid transparent;
