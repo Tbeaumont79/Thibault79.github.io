@@ -348,6 +348,7 @@ li
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
+    color : #fff;
 }
 #menu2 li:first-child
 {  
@@ -363,10 +364,6 @@ li
 #menu2 li:hover .triangle1,#menu2 li:hover .triangle1,#menu2 li:hover .triangle1,#menu2 li:hover .triangle1 
 {
     visibility: visible;
-}
-#menu2 a:hover
-{
-    color: #fff;
 }
 
 #portfolio
