@@ -703,12 +703,14 @@ i.fa-eye
 }
 iframe
 {
-    z-index: 3;
     width: 100%;
     padding-top: 30px;
-    border: 1px solid transparent;
+}
+#googlemap
+{
+    z-index: 3;
     background-color: #02b8dd;
-    opacity: 0.6;
+    
 }
 #formulaire-contact
 {
