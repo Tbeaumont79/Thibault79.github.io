@@ -276,41 +276,12 @@ li
     margin-left: 20px;
     visibility: hidden;
     position: absolute;
-    top: 1435px;
+    margin: 12px;
     width:0px;
     border:10px solid transparent;
     border-top:10px solid #5383b4;
 }
-.triangle2
-{
-    margin-left: 20px;
-    visibility: hidden;
-    position: absolute;
-    top: 1435px;
-    width:0px;
-    border:10px solid transparent;
-    border-top:10px solid #5383b4;
-}
-.triangle3
-{
-    margin-left: 20px;
-    position: absolute;
-    visibility: hidden;
-    top: 1435px;
-    width:0px;
-    border:10px solid transparent;
-    border-top:10px solid #5383b4;
-}
-.triangle4
-{
-    margin-left: 20px;
-    position: absolute;
-    visibility: hidden;
-    top: 1435px;
-    width:0px;
-    border:10px solid transparent;
-    border-top:10px solid #5383b4;
-}
+
 #menu2  
 {
     margin-right: 50px;
