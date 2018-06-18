@@ -705,12 +705,7 @@ iframe
 {
     width: 100%;
     padding-top: 30px;
-}
-#googlemap
-{
-    z-index: 3;
     background-color: #02b8dd;
-    
 }
 #formulaire-contact
 {
