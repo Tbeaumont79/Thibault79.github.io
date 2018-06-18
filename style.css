@@ -169,6 +169,7 @@ header ul
     background-color: #02b8dd;
     width: 10px;
     text-align: center;
+    position: absolute;
     height: 10px;
     border-radius: 100%;
 }
