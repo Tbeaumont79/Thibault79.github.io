@@ -162,6 +162,7 @@ header ul
     background-color: #02b8dd;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 10px;
     height: 10px;
     border-radius: 100%;
