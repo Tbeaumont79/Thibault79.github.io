@@ -169,6 +169,7 @@ header ul
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 100%;
