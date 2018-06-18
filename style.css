@@ -361,7 +361,7 @@ li
     border-bottom-right-radius: 5px;
 }
 
-#menu2 a:hover .triangle1,#menu2 a:hover .triangle2,#menu2 a:hover .triangle3,#menu2 a:hover .triangle4 
+#menu2 li:hover .triangle1,#menu2 li:hover .triangle1,#menu2 li:hover .triangle1,#menu2 li:hover .triangle1 
 {
     visibility: visible;
 }
