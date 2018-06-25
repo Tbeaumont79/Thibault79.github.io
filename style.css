@@ -39,8 +39,9 @@ header a:hover
 {
     margin: 0px;
     padding:0px;
-    width: 1220px;
+    width: 1920px;
     display: flex;
+    margin-left: 25%;
     justify-content: center;
     flex-flow: wrap column;
 }
