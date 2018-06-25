@@ -35,18 +35,11 @@ header a:hover
     justify-content: flex-start;
 }
 
-@media screen and(max-width:2560px)
-{
-    #corp
-    {
-        width: 1920px;
-    }
-}
 #corp
 {
     margin: 0px;
     padding:0px;
-    width: 1920px;
+    width: 1220px;
     display: flex;
     justify-content: center;
     flex-flow: wrap column;
@@ -159,8 +152,7 @@ header ul
     margin-left: 800px;
     margin-right: 800px;
     justify-content: center;
-    display: flex;
-    align-content: center;
+
 }
 .rond 
 {
@@ -168,6 +160,7 @@ header ul
     background-color: #02b8dd;
     width: 10px;
     text-align: center;
+    margin-left: 50%;
     position: absolute;
     height: 10px;
     border-radius: 100%;
@@ -391,7 +384,7 @@ li
 {
     position: absolute;
     top: 1615px;
-    left:210px;
+    left:215px;
     visibility: hidden;
 }
 .img-size p#p-1
@@ -705,8 +698,7 @@ iframe
 {
     width: 100%;
     padding-top: 30px;
-    border: 1px solid black;
-    background-color: #02b8dd;
+
 }
 
 #formulaire-contact
