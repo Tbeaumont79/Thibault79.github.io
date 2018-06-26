@@ -1,10 +1,9 @@
-.wrapper header{
+.wrapper{
     width: 1920px;
-    margin: auto;
     display: flex;
-    background-color: #141525;
+    margin:auto;
 }
-#body{
+.body{
     display: flex;
     flex-direction: column;
 }
@@ -18,8 +17,9 @@ body{
     src:url('/font/TOMATOES Personal Use.ttf');
 }
 header{
- 
+    background-color: #141525;
     position: fixed;
+    width: 1920px;
     display: flex;
 }
 header h1
@@ -79,16 +79,19 @@ section .wrapper{
     background-color: #141525;
     color:#fff;
     border: transparent;
+    border-radius: 10px;
+
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    opacity: 0.9;
-    border-radius: 10px;
-    padding: 5px;
     text-align: center;
-    width: 100px;
-    height: 40px;
+    opacity: 0.9;
+    
+    padding: 5px;
     margin-bottom: 48%;
     margin-left: 35%;
+
+    width: 100px;
+    height: 40px;
 }
 .section button:hover{
     opacity:1;
