@@ -53,27 +53,24 @@ header nav ul li a
 header nav ul li a:hover{
     opacity: 1;
 }
-section .wrapper{
-    z-index: 3;
-    margin-top: 122px;
-    background: url('/image/slider.jpg');
-    background-repeat: no-repeat;
-    height: 900px;
-}
+
 .section{
     display: flex;
     flex-direction: column;
     align-content: center;
+    background: url('/image/slider.jpg');
+    background-repeat: no-repeat;
+    width: 1920px;
 }
-.section h2{
+.slider{
     color: #fff;
     font-family: coolfont;
     display: flex;
     font-size: 3em;
     margin: auto;
     margin-left: 35%;
-    margin-top: 25%; 
-    width: 1000px;
+    margin-top: 15%; 
+
 }
 .section button{
     background-color: #141525;
