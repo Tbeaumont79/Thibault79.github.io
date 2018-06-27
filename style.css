@@ -1,30 +1,29 @@
-.wrapper{
+.wrapper {
     width: 1920px;
     display: flex;
     margin:auto;
 }
-.body{
+.body {
     display: flex;
     flex-direction: column;
 }
-body{
+body { 
     margin:0px;
     padding:0px;
     background:black;
 }
-@font-face
-{
+@font-face {
     font-family: coolfont;
     src:url('/font/TOMATOES Personal Use.ttf');
 }
-header{
+header {
     background-color: #141525;
     position: fixed;
     width: 1920px;
     display: flex;
+    z-index: 3;
 }
-header h1
-{ 
+header h1 { 
     font-family: coolfont;
     padding: 3px;
     padding-left: 20%;
@@ -32,7 +31,7 @@ header h1
     color:#fff;
     opacity: 0.8;
 }
-header nav ul{
+header nav ul {
     display: flex;
     font-family: coolfont;
     font-size: 1.3em;
@@ -40,58 +39,142 @@ header nav ul{
     padding-top: 15px;
 
 }
-header nav ul li{
+header nav ul li {
     list-style: none;
 }
-header nav ul li a
-{
+header nav ul li a {
     text-decoration: none;
     color: #fff;
     margin-left: 30px;
     font-weight: bold;
     opacity: 0.8;
 }
-header nav ul li a:hover{
+header nav ul li a:hover {
     opacity: 1;
 }
 
-.section{
+.section {
     display: flex;
     flex-direction: column;
     align-content: center;
+
     background: url('/image/slider.jpg');
     background-repeat: no-repeat;
+
     width: 1920px;
+    height: 800px;
 }
-.slider{
+.slider {
     color: #fff;
     font-family: coolfont;
     display: flex;
     font-size: 3em;
+
     margin: auto;
     margin-left: 35%;
     margin-top: 15%; 
 
 }
-.section button{
-    background-color: #141525;
+.section-btn {
+    background-color: #20223D;
     color:#fff;
     border: transparent;
     border-radius: 10px;
-
+ 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: center;
     opacity: 0.9;
     
+    width: 110px;
+    height: 40px;
+
     padding: 5px;
-    margin-bottom: 48%;
+    margin-bottom: 18.5%;
     margin-left: 35%;
 
-    width: 100px;
-    height: 40px;
+   
 }
-.section button:hover{
+.section button:hover {
     opacity:1;
     box-shadow: 0px 0px 2px 0px #fff;
+}
+.content {
+    display: flex;
+    border: 1px solid #141525;
+    background-color: #141525;
+
+    width: 1920px;
+    height: 600px;
+}
+.content {
+    display: flex;
+
+    padding-top: 25px;
+}
+.web-design {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 5%;
+    height: 600px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+   
+}
+.web-design h2 {
+
+    color:white;
+    background-color: #18192E;
+
+    border: 1px solid #18192E;
+    border-radius: 10px 10px 0px 0px;
+
+    height: 40px;
+    width: 600px;
+
+
+    text-align: center;
+    opacity: 0.8;
+    padding: 10px;
+}
+.web-design p {
+    color:white;
+    background-color: #18192E;
+
+    border: 1px solid #18192E;
+    border: 0px 0px 10px 10px;
+
+    position: relative;
+    bottom:45px;
+
+    line-height: 40px;
+    opacity: 0.8;
+
+    width: 600px;
+    height: 400px;
+
+    padding: 10px;
+    padding-top: 20px;
+}
+.logo {
+    color:#fff;
+
+    font-size: 2em;
+
+
+    position: relative;
+    bottom: 200px;
+
+    margin-left: 7%;
+    padding:5px;
+
+}
+.fa-chart-line
+{
+    background-color: #FF4700;
+    border:1px solid #FF4700;
+    border-radius: 100%;
+    padding: 20px;
 }
