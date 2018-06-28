@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src='script.js'></script>
     <title>Awesome js</title>
 </head>
+
 <body>
-<div class="body">
+ 
     <div class="wrapper">
     <header>    
         <h1>My Website</h1>
@@ -28,13 +31,12 @@
             
                 <div class="section">
                     <h2 class="slider">Get your own Website !</h2>
-                    <button class="section-btn">More information</button>
+                    <a id="js-scrollTo" href="#Content"><button class="section-btn"><i class="fas fa-angle-double-down"></i></button></a>
                 </div>
         </section>
         </div>
-        <div class="wrapper">
-        <section>
-                <div class="content">
+        <div class="wrapper"></div>
+                <div id="Content" class="content">
                     <div class="web-design">
                         <h2>Design</h2>
                         <p class="web-design-content">Contact me in order to get your own design in the section Contact.
@@ -50,7 +52,7 @@
                     <p class="price-content">The price depend on the work that your website require and also the task that you want me to do for more information contact me.</p>
                     <div class="contact-me"><i class="fas fa-handshake"></i><p>Contact me </p></div>
                 </div>
-        </section>
+ 
         </div>
        
             <footer>
@@ -58,8 +60,7 @@
                 <p>This website is a personal project Beaumont Thibault ©</p>
                 </div>
             </footer>
-       
-</div>
-    <script src='script.js'></script>
+    
+    
 </body>
 </html>
